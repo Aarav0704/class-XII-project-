@@ -62,3 +62,12 @@ input:focus {
     outline: none;
     background-color: #32364a;
 }
+
+a {
+    color: #ffffff; 
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #ff0000; 
+}

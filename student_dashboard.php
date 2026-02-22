@@ -26,8 +26,8 @@ $student_id = $_SESSION['student_id'];
         <h3>Available Exams</h3>
         <table border="1" width="100%" style="border-collapse: collapse; margin-bottom: 20px;">
             <tr style="background-color: #f2f2f2;">
-                <th>Exam Title</th>
-                <th>Action</th>
+                <th style="color: #000000;">Exam Title</th>
+                <th style="color: #000000;">Action</th>
             </tr>
             <?php
             // Fetch exams that the student has NOT submitted yet
@@ -52,10 +52,10 @@ $student_id = $_SESSION['student_id'];
         <h3>Your Results</h3>
         <table border="1" width="100%" style="border-collapse: collapse;">
             <tr style="background-color: #f2f2f2;">
-                <th>Exam Title</th>
-                <th>Status</th>
-                <th>Score</th>
-                <th>Details</th>
+                <th style="color: #000000;">Exam Title</th>
+                <th style="color: #000000;">Status</th>
+                <th style="color: #000000;">Score</th>
+                <th style="color: #000000;">Details</th>
             </tr>
             <?php
             // Fetch exams already taken by this student
